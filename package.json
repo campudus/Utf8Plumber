@@ -1,0 +1,24 @@
+{
+  "name": "Utf8Plumber",
+  "version": "1.0.0",
+  "description": "Stops streams from cutting UTF-8 characters in half and producing invalid input",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*Spec.js",
+    "test:watch": "npm run test -- -w"
+  },
+  "keywords": [
+    "utf8",
+    "utf-8",
+    "plumber",
+    "stream",
+    "utility",
+    "helper"
+  ],
+  "author": "Campudus",
+  "license": "MIT",
+  "devDependencies": {
+    "csv": "^0.4.1",
+    "mocha": "^2.2.1"
+  }
+}
